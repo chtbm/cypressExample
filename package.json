@@ -1,0 +1,22 @@
+{
+  "name": "cypressexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brahian Cabrera",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.17.4",
+    "esbuild": "^0.19.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.4",
+    "@types/node": "^20.5.7",
+    "fs-extra": "^11.1.1"
+  }
+}
